@@ -1,0 +1,79 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-color: black;
+  text-align: center; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 {
+  margin-bottom: 1em; }
+
+p {
+  margin: 1em 0; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px; }
+
+.header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  background-color: #555555;
+  height: 5em; }
+  .header a {
+    box-sizing: border-box; }
+    .header a:hover {
+      font-size: 1.2em; }
+
+nav {
+  font-size: 1.3em;
+  color: white; }
+  nav ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 1.2em 9.5em 0 0; }
+  nav ul li {
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    width: 7em;
+    height: 5em;
+    list-style: none; }
+    nav ul li :hover {
+      background-color: #090510;
+      -webkit-animation-name: changeBackgroundColor;
+              animation-name: changeBackgroundColor;
+      -webkit-animation-duration: 3s;
+              animation-duration: 3s; }
+    nav ul li a {
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none; }
+
+@-webkit-keyframes changeBackgroundColor {
+  from {
+    background-color: #090510; }
+  to {
+    background-color: #0086B3; } }
+
+@keyframes changeBackgroundColor {
+  from {
+    background-color: #090510; }
+  to {
+    background-color: #0086B3; } }
+
+body {
+  background: white; }

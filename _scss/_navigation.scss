@@ -1,0 +1,33 @@
+nav{
+  font-size: 1.3em;
+  color: white;
+  ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2em 9.5em 0 0;
+  }
+  ul li{
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    width: 7em;
+    height: 5em;
+    list-style: none;
+    :hover{
+      background-color: #090510;
+      animation-name: changeBackgroundColor;
+      animation-duration: 3s;
+    }
+    a{
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+}
+
+
+@keyframes changeBackgroundColor {
+  from {background-color: #090510;}
+  to {background-color: #0086B3;}
+}

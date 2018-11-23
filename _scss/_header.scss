@@ -1,0 +1,15 @@
+.header{
+  $header: &;
+  display: flex;
+  justify-content: space-between;
+  background-color: #555555;
+  height: 5em;
+  a{
+    box-sizing: border-box;
+    &:hover{
+      font-size: 1.2em;
+    }
+
+  }
+}
+
