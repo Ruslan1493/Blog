@@ -6,7 +6,7 @@
   justify-content: space-between;
   img{
     max-height: 400px;
-    width: 30%;
-    margin: 1em;
+    width: var(--width-img);
+    margin: var(--margin-img);
   }
 }
