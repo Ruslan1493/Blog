@@ -1,0 +1,39 @@
+.posts, .post{
+  background-color: white;
+  border-radius:  10px;
+  color: #555555;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 3em;
+  font-size: var(--font-size-posts);
+}
+
+.posts{
+  min-height: 50vh;
+  li {
+    padding: 1em 0 1em 2em;
+    margin: 0;
+    width: 35em;
+    height: 2em;
+    a{
+      color: #555555;
+      transition: font-size 1.2s;
+    }
+    a:hover {
+      font-size: 1.05em;
+    }
+  }
+  .post-info{
+    color: #555555;
+  }
+}
+
+.post{
+  margin: 0 auto;
+  padding: 2em;
+  //white-space: normal;
+  //overflow: visible;
+  min-height: 50%;
+  margin-bottom: 2em;
+}

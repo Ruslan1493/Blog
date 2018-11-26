@@ -1,20 +1,48 @@
 /* Global Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body { height: 100%; }
+html, body {
+  margin: 0 auto;
+  height: 100%;
+}
 
-body {
-    background-color: black;
-    text-align: center;
+           body {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-size: 100%; }
+  font-size: var(--font-size-h1);
+  text-align: center;
+  margin: 2rem;
+}
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h1 {
+  margin-bottom: 1em;
+}
 
+p {
+  margin: 1em 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.main {
+  display: block;
+  margin-bottom: 2em;
+  min-height: 100%;
+}

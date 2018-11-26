@@ -1,8 +1,9 @@
 @import "reset";
+@import "variables";
 @import "typography";
 @import "header";
+@import "footer";
 @import "navigation";
-
-body {
-    background: white;
-}
+@import "form";
+@import "posts";
+@import "gallery";
