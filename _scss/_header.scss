@@ -1,9 +1,9 @@
 .header{
   $header: &;
-  display: flex;
+  display: var(--menu-block);
   justify-content: space-between;
   background-color: #555555;
-  height: 5em;
+  min-height: 5em;
   a{
     box-sizing: border-box;
     transition: font-size 0.3s;
@@ -14,7 +14,7 @@
   }
   .title{
     position: relative;
-    margin: 0.25em 0.6em;
+    margin: var(--menu-margin-large-scr);
     font-family: "Calibri", sans-serif;
 
     a{
