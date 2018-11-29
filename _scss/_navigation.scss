@@ -3,8 +3,8 @@ nav{
   color: white;
   ul{
     display: flex;
-    justify-content: space-between;
-    margin: 1.2em 9.5em 0 0;
+    justify-content: var(--menu-justify-content);
+    margin: var(--menu-standart-margin);
   }
   ul li{
     text-align: center;
