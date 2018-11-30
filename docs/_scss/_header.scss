@@ -1,0 +1,29 @@
+.header{
+  $header: &;
+  display: var(--menu-block);
+  justify-content: space-between;
+  background-color: #555555;
+  min-height: 5em;
+  a{
+    box-sizing: border-box;
+    transition: font-size 0.3s;
+    &:hover{
+      font-size: 1.2em;
+    }
+
+  }
+  .title{
+    position: relative;
+    margin: var(--menu-margin-large-scr);
+    font-family: "Calibri", sans-serif;
+
+    a{
+      box-sizing: border-box;
+
+      &:hover{
+        font-size: 1em;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,37 @@
+nav{
+  font-size: var(--font-size-lv2);
+  color: white;
+  ul{
+    display: flex;
+    justify-content: var(--menu-justify-content);
+    margin: var(--menu-standart-margin);
+  }
+  ul li{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 7em;
+    height: 5em;
+    list-style: none;
+    transition: font-size 4s;
+    :hover{
+      animation-name: changeBackgroundColor;
+      animation-duration: 3s;
+      font-size: 1.2em;
+    }
+    a{
+      border: none;
+      border-radius: 10px;
+      padding: 5px;
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+}
+
+
+@keyframes changeBackgroundColor {
+  from {background-color: rgba(255,255,255, 0.3);}
+  to {background-color: inherit;}
+}
