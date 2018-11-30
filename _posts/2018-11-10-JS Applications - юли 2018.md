@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JS Applications - юли 2018"
-date:   2018-11-20 09:11:03
+date:   2018-11-10 09:11:03
 categories: posts
 ---
 
