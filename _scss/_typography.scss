@@ -58,3 +58,35 @@ body{
     --menu-justify-content: space-around;
   }
 }
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+  :root{
+    --width-img: 80%;
+    --margin-img: 2em auto;
+    --font-size-posts: 1.2em;
+    --font-size-lv2: 1.1em;
+    --font-size-lv4: 0.95em;
+    --menu-block: block;
+    --menu-margin-large-scr: 0;
+    --menu-standart-margin: 2em 0;
+    --menu-justify-content: space-around;
+    --padding-li: 2em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  :root{
+    --width-img: 80%;
+    --margin-img: 2em auto;
+    --font-size-posts: 1.2em;
+    --font-size-lv2: 1.1em;
+    --font-size-lv4: 0.95em;
+    --menu-block: block;
+    --menu-margin-large-scr: 0;
+    --menu-standart-margin: 2em 0;
+    --menu-justify-content: space-around;
+    --padding-li: 2em;
+    --form-padding-left: 0;
+    --form-margin-left: 0;
+  }
+}

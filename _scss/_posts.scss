@@ -11,7 +11,7 @@
 .posts{
   min-height: 50vh;
   li {
-    padding: 1em 1em 1em 4em;
+    padding: var(--padding-li);
     margin: 0;
     max-width: 35em;
     min-height: 2em;
