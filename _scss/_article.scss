@@ -1,0 +1,40 @@
+.articles{
+  .article{
+    display: block;
+    width: 80%;
+    height: 300px;
+    margin: 5rem auto;
+    color: #ba0000;
+    .article-img{
+      display: block;
+      height: 100%;
+      max-width: 400px;
+      position: relative;
+      float: left;
+      transition: opacity 2s;
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+
+    .articles-info{
+      //float: right;
+      padding: 4rem;
+      h2 > a{
+        font-family: "Verdana", sans-serif;
+        transition: text-shadow 2s, color 2s;
+      }
+      h2 > a:hover{
+        text-shadow: 2px 2px #9c9c9c;
+        color: #ba0000;
+      }
+    }
+
+    &:hover > .article-img{
+    opacity: 0.2;
+  }
+
+  }
+}

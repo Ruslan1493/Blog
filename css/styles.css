@@ -405,7 +405,13 @@ ul li:hover > ul {
     width: 80% !important; }
   .trainings h2 {
     display: block;
-    margin: 2rem 0; } }
+    margin: 2rem 0; }
+  .articles .article {
+    height: auto !important; }
+    .articles .article .article-img {
+      float: none !important;
+      max-width: 80% !important;
+      margin: 0 auto; } }
 
 @media screen and (min-width: 640px) and (max-width: 767px) {
   body {
@@ -457,7 +463,17 @@ ul li:hover > ul {
     width: 80% !important; }
   .trainings h2 {
     display: block;
-    margin: 2rem 0; } }
+    margin: 2rem 0; }
+  .articles .article {
+    height: auto !important; }
+    .articles .article .article-img {
+      float: none !important;
+      max-width: 80% !important;
+      margin: 0 auto; }
+    .articles .article .articles-info {
+      padding: 0 !important; }
+      .articles .article .articles-info h2 {
+        font-size: 1rem; } }
 
 @media screen and (min-width: 480px) and (max-width: 639px) {
   body {
@@ -552,7 +568,17 @@ ul li:hover > ul {
       width: 80% !important;
       padding: 2rem !important; }
   .form {
-    width: 95% !important; } }
+    width: 95% !important; }
+  .articles .article {
+    height: auto !important; }
+    .articles .article .article-img {
+      float: none !important;
+      max-width: 80% !important;
+      margin: 0 auto; }
+    .articles .article .articles-info {
+      padding: 0 !important; }
+      .articles .article .articles-info h2 {
+        font-size: 1rem; } }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
   body {
@@ -653,7 +679,17 @@ ul li:hover > ul {
     padding: 1rem 1rem !important;
     background-position: center; }
     .about-header h1 {
-      font-size: 1.2rem; } }
+      font-size: 1.2rem; }
+  .articles .article {
+    height: auto !important; }
+    .articles .article .article-img {
+      float: none !important;
+      max-width: 80% !important;
+      margin: 0 auto; }
+    .articles .article .articles-info {
+      padding: 0 !important; }
+      .articles .article .articles-info h2 {
+        font-size: 1rem; } }
 
 #plans {
   margin-top: 2rem;
@@ -1109,3 +1145,30 @@ ul li:hover > ul {
     padding: 0rem 5rem; }
   to {
     padding: 5rem 5rem; } }
+
+.articles .article {
+  display: block;
+  width: 80%;
+  height: 300px;
+  margin: 5rem auto;
+  color: #ba0000; }
+  .articles .article .article-img {
+    display: block;
+    height: 100%;
+    max-width: 400px;
+    position: relative;
+    float: left;
+    transition: opacity 2s; }
+    .articles .article .article-img img {
+      height: 100%;
+      width: 100%; }
+  .articles .article .articles-info {
+    padding: 4rem; }
+    .articles .article .articles-info h2 > a {
+      font-family: "Verdana", sans-serif;
+      transition: text-shadow 2s, color 2s; }
+    .articles .article .articles-info h2 > a:hover {
+      text-shadow: 2px 2px #9c9c9c;
+      color: #ba0000; }
+  .articles .article:hover > .article-img {
+    opacity: 0.2; }
