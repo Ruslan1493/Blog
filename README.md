@@ -1,7 +1,7 @@
 jekyll-gulp-sass-browser-sync
 =============================
 
-Githu pages: https://ruslan1493.github.io/Blog/index.html
+Githu pages: https://ruslan1493.github.io/Gym/
 
 
 A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
