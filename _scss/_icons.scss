@@ -3,10 +3,17 @@
 }
 .icons .fab{
   font-size: 1.3rem;
+  position: absolute;
 }
 
 .icons .fab:hover{
   color: crimson;
+  //animation: iconBounce 3s ease-in-out;
+}
+
+.icons > li:hover > .fab{
+  //color: crimson;
+  animation: iconBounce 3s ease-in-out;
 }
 
 .fa-angle-down{
@@ -28,4 +35,40 @@
     display: block;
     max-height: 250px;
     max-width: 180px;
+  &:hover{
+    animation: bounce 3s forwards;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(0,0);
+  }
+  20% {
+    transform: translate(0,20px);
+  }
+  40% {
+    transform: translate(0,-20px);
+  }
+  60% {
+    transform: translate(0,20px);
+  }
+  80% {
+    transform: translate(0,-20px);
+  }
+  100% {
+    transform: translate(0px,0px);
+  }
+}
+
+@keyframes iconBounce {
+  0% {
+    transform: translate(0,0);
+  }
+  50% {
+    transform: translate(0,-40px);
+  }
+  100% {
+    transform: translate(0px,0px);
+  }
 }

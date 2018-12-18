@@ -370,18 +370,14 @@
         }
 
       }
-      & li > ul li{
+      & li > ul{
         -webkit-transition: top 2s !important;
         transition: top 2s !important;
-        top: 0px;
-        //color: black;
+        top: 0;
       }
-      & li:hover > ul li{
-        color: red !important;
-        top: 15px;
-      }
+
       & li:hover > ul{
-        display: block;
+        //display: block;
         width: 100%;
         position: relative;
         text-align: center;
