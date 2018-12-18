@@ -354,42 +354,18 @@ ul li:hover > ul {
   left: 0; }
 
 @media screen and (min-width: 1600px) {
-  :root {
-    --max-width-img: 400px;
-    --height-img: 300px;
-    --margin-img: 2em 2em;
-    --gallery-columns: auto auto auto;
-    --gallery-width: 400px; }
   body {
     font-size: 1rem; } }
 
 @media screen and (min-width: 1446px) and (max-width: 1599px) {
-  :root {
-    --max-width-img: 300px;
-    --height-img: 300px;
-    --margin-img: 2em 2em;
-    --gallery-columns: auto auto auto;
-    --gallery-width: 400px; }
   body {
     font-size: 0.95rem; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1445px) {
-  :root {
-    --max-width-img: 300px;
-    --height-img: 250px;
-    --margin-img: 2em auto;
-    --gallery-columns: auto auto; }
   body {
     font-size: 0.85rem; } }
 
 @media screen and (min-width: 960px) and (max-width: 1023px) {
-  :root {
-    --margin-img: 2em auto;
-    --font-size-posts: 1.2em;
-    --font-size-lv2: 1.1em;
-    --gallery-columns: auto;
-    --max-width-img: 300px;
-    --height-img: 250px; }
   body {
     font-size: 0.75rem; } }
 
@@ -780,9 +756,7 @@ ul li:hover > ul {
   font-size: 1.3rem; }
 
 .icons .fab:hover {
-  color: #437fdc; }
-
-.icons > li:hover .fab {
+  color: #437fdc;
   -webkit-animation: rotate 3s linear;
           animation: rotate 3s linear; }
 
@@ -852,7 +826,8 @@ ul li:hover > ul {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); }
   50% {
-    color: crimson; }
+    color: crimson;
+    font-size: 1.5rem; }
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
@@ -862,7 +837,8 @@ ul li:hover > ul {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); }
   50% {
-    color: crimson; }
+    color: crimson;
+    font-size: 1.5rem; }
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
@@ -963,11 +939,10 @@ ul li:hover > ul {
     grid-column: span 2; }
   .gallery .gallery-item.medium {
     grid-row: span 1;
-    grid-column: span 2; }
-  .gallery .gallery-item .large .first {
+    grid-column: span 3; }
+  .gallery .gallery-item .large {
     grid-row: span 3;
-    grid-column: span 3;
-    grid-column-start: 1; }
+    grid-column: span 3; }
   .gallery img {
     border: 1px solid green;
     width: 100%;
