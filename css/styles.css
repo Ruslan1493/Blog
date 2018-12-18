@@ -777,15 +777,14 @@ ul li:hover > ul {
   margin: 0 auto; }
 
 .icons .fab {
-  font-size: 1.3rem;
-  position: absolute; }
+  font-size: 1.3rem; }
 
 .icons .fab:hover {
-  color: crimson; }
+  color: #437fdc; }
 
-.icons > li:hover > .fab {
-  -webkit-animation: iconBounce 3s ease-in-out;
-          animation: iconBounce 3s ease-in-out; }
+.icons > li:hover .fab {
+  -webkit-animation: rotate 3s linear;
+          animation: rotate 3s linear; }
 
 .fa-angle-down {
   position: absolute;
@@ -848,27 +847,25 @@ ul li:hover > ul {
     -webkit-transform: translate(0px, 0px);
             transform: translate(0px, 0px); } }
 
-@-webkit-keyframes iconBounce {
+@-webkit-keyframes rotate {
   0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0); }
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
   50% {
-    -webkit-transform: translate(0, -40px);
-            transform: translate(0, -40px); }
+    color: crimson; }
   100% {
-    -webkit-transform: translate(0px, 0px);
-            transform: translate(0px, 0px); } }
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
 
-@keyframes iconBounce {
+@keyframes rotate {
   0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0); }
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
   50% {
-    -webkit-transform: translate(0, -40px);
-            transform: translate(0, -40px); }
+    color: crimson; }
   100% {
-    -webkit-transform: translate(0px, 0px);
-            transform: translate(0px, 0px); } }
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
 
 .form {
   text-align: center;
