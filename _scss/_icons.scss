@@ -7,7 +7,7 @@
 
 .icons .fab:hover{
   color: #437fdc;
-  animation: rotate 3s linear;
+  animation: rotate 2s ease-out;
 }
 
 .icons > li:hover .fab{
@@ -63,7 +63,6 @@
   }
   50%{
     color: crimson;
-    font-size: 1.5rem;
   }
 100% {
     transform: rotate(360deg);

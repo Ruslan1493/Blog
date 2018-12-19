@@ -757,8 +757,8 @@ ul li:hover > ul {
 
 .icons .fab:hover {
   color: #437fdc;
-  -webkit-animation: rotate 3s linear;
-          animation: rotate 3s linear; }
+  -webkit-animation: rotate 2s ease-out;
+          animation: rotate 2s ease-out; }
 
 .fa-angle-down {
   position: absolute;
@@ -826,8 +826,7 @@ ul li:hover > ul {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); }
   50% {
-    color: crimson;
-    font-size: 1.5rem; }
+    color: crimson; }
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
@@ -837,8 +836,7 @@ ul li:hover > ul {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); }
   50% {
-    color: crimson;
-    font-size: 1.5rem; }
+    color: crimson; }
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
@@ -958,6 +956,8 @@ ul li:hover > ul {
   line-height: 1.2rem;
   clear: both;
   z-index: 111; }
+  .trainings section .training-img {
+    box-shadow: 0px 0px 40px 2px; }
 
 .trainings section:not(:first-child) {
   margin: 6rem 0 0 0; }
