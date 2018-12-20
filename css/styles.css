@@ -183,7 +183,7 @@ header {
   border-bottom: 1px solid lightgrey; }
 
 .pic-area {
-  background: url("/images/gym_logo.jpg") no-repeat center center;
+  background: url("../images/gym_logo.jpg") no-repeat center center;
   opacity: 0.5;
   background-color: rgba(0, 0, 0, 0.1);
   background-size: cover;
